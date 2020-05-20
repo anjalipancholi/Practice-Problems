@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1879de40-e761-47f9-a599-bba6c3ac32be" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W1qxUQCFqKkyYWrbvTcGRNavZA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/acm (1).jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Song" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SnakeGame">
+    <configuration name="AddIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddIntegers" />
+      <module name="Learn_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Breakout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Breakout" />
+      <module name="Learn_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Image" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Image" />
+      <module name="Learn_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SnakeGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SnakeGame" />
+      <module name="Learn_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Yahtzee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Yahtzee.Yahtzee" />
+      <module name="Learn_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Yahtzee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahtzeeDisplay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Yahtzee.YahtzeeDisplay" />
+      <module name="Learn_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Yahtzee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SnakeGame" />
+        <item itemvalue="Application.Yahtzee" />
+        <item itemvalue="Application.Breakout" />
+        <item itemvalue="Application.YahtzeeDisplay" />
+        <item itemvalue="Application.AddIntegers" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1879de40-e761-47f9-a599-bba6c3ac32be" name="Default Changelist" comment="" />
+      <created>1578327695193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578327695193</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="315" y="58" key="#Project_Structure" timestamp="1581741019779">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="315" y="58" key="#Project_Structure/65.24.1301.744@65.24.1301.744" timestamp="1581741019779" />
+    <state x="362" y="54" key="#Pyramid_(1)" timestamp="1581740129722">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="362" y="54" key="#Pyramid_(1)/65.24.1301.744@65.24.1301.744" timestamp="1581740129722" />
+    <state x="403" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581950819103">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="403" y="202" key="#com.intellij.fileTypes.FileTypeChooser/65.24.1301.744@65.24.1301.744" timestamp="1581950819103" />
+    <state x="519" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1582639891744">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="519" y="116" key="#com.intellij.ide.util.MemberChooser/65.24.1301.744@65.24.1301.744" timestamp="1582639891744" />
+    <state x="438" y="188" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581871864625">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="438" y="188" key="#com.intellij.ide.util.TreeClassChooserDialog/65.24.1301.744@65.24.1301.744" timestamp="1581871864625" />
+    <state x="458" y="257" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581871866306">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="458" y="257" width="484" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/65.24.1301.744@65.24.1301.744" timestamp="1581871866306" />
+    <state width="1255" height="175" key="GridCell.Tab.0.bottom" timestamp="1583426906807">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="175" key="GridCell.Tab.0.bottom/65.24.1301.744@65.24.1301.744" timestamp="1583426906807" />
+    <state width="1255" height="175" key="GridCell.Tab.0.center" timestamp="1583426906806">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="175" key="GridCell.Tab.0.center/65.24.1301.744@65.24.1301.744" timestamp="1583426906806" />
+    <state width="1255" height="175" key="GridCell.Tab.0.left" timestamp="1583426906804">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="175" key="GridCell.Tab.0.left/65.24.1301.744@65.24.1301.744" timestamp="1583426906804" />
+    <state width="1255" height="175" key="GridCell.Tab.0.right" timestamp="1583426906807">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="175" key="GridCell.Tab.0.right/65.24.1301.744@65.24.1301.744" timestamp="1583426906807" />
+    <state width="1255" height="240" key="GridCell.Tab.1.bottom" timestamp="1582044711591">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="240" key="GridCell.Tab.1.bottom/65.24.1301.744@65.24.1301.744" timestamp="1582044711591" />
+    <state width="1255" height="240" key="GridCell.Tab.1.center" timestamp="1582044711590">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="240" key="GridCell.Tab.1.center/65.24.1301.744@65.24.1301.744" timestamp="1582044711590" />
+    <state width="1255" height="240" key="GridCell.Tab.1.left" timestamp="1582044711590">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="240" key="GridCell.Tab.1.left/65.24.1301.744@65.24.1301.744" timestamp="1582044711590" />
+    <state width="1255" height="240" key="GridCell.Tab.1.right" timestamp="1582044711590">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state width="1255" height="240" key="GridCell.Tab.1.right/65.24.1301.744@65.24.1301.744" timestamp="1582044711590" />
+    <state x="378" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1587749971411">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="225" key="com.intellij.ide.util.TipDialog/65.24.1301.744@65.24.1301.744" timestamp="1587749971411" />
+    <state x="384" y="56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581948777582">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="384" y="56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1301.744@65.24.1301.744" timestamp="1581948777582" />
+    <state x="65" y="94" key="new project wizard" timestamp="1587750056664">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="65" y="94" key="new project wizard/65.24.1301.744@65.24.1301.744" timestamp="1587750056664" />
+    <state x="455" y="24" key="refactoring.ChangeSignatureDialog" timestamp="1581700075237">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="455" y="24" key="refactoring.ChangeSignatureDialog/65.24.1301.744@65.24.1301.744" timestamp="1581700075237" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581951544278">
+      <screen x="65" y="24" width="1301" height="744" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/65.24.1301.744@65.24.1301.744" timestamp="1581951544278" />
+  </component>
+</project>
