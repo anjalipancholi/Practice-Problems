@@ -1,6 +1,6 @@
 package array;
 
-public class MaximumSubarray {
+public class MaximumSubArray {
 
   private String getSubArrayString(int[] A, int start, int end) {
     String s = "[";
@@ -20,6 +20,6 @@ public class MaximumSubarray {
   }
 
   public static void main(String[] args) {
-    new MaximumSubarray().printSubArrays(new int[]{1, 2, 3, 4, 5});
+    new MaximumSubArray().printSubArrays(new int[]{1, 2, 3, 4, 5});
   }
 }
