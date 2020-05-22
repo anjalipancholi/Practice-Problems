@@ -4,7 +4,6 @@ import acm.program.GraphicsProgram;
 import javax.swing.*;
 import java.util.HashMap;
 import java.awt.event.*;
-
 public class BoxDiagram extends GraphicsProgram {
     private static final int BOX_WIDTH = 120;
     private static final int BOX_HEIGHT = 50;
