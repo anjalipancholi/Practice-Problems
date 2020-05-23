@@ -12,6 +12,7 @@ public class PascalsTriangle1 {
         if (numRows == 0) {
             return triangle;
         }
+
         //add element to triangle and the value of first row will be [1]
         triangle.add(new ArrayList<Integer>());
         triangle.get(0).add(1);
