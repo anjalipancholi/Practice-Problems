@@ -31,4 +31,6 @@ public class PascalsTriangle1 {
         }
         return triangle;
     }
+
 }
+

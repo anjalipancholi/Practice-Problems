@@ -6,17 +6,17 @@ package array;
 
 public class Presentelement2 {
     public int insert(int[] nums, int target) {
-        int i=0;
-        int j=nums.length-1;
+        int i = 0;
+        int j = nums.length - 1;
 
-        while(i<j-1){
-            int mid = (i+j)/2;
+        while (i < j - 1) {
+            int mid = (i + j) / 2;
 
-            if(target > nums[mid]){
-                i=mid+1;
-            }else if(target < nums[mid]){
-                j=mid-1;
-            }else{
+            if (target > nums[mid]) {
+                i = mid + 1;
+            } else if (target < nums[mid]) {
+                j = mid - 1;
+            } else {
                 return mid;
             }
         }
@@ -24,8 +24,9 @@ public class Presentelement2 {
         return i;
 
     }
+
     public static void main(String[] args) {
-        new Presentelement2().insert(new int[] {1,3, 5,6}, 2);
+        new Presentelement2().insert(new int[]{1, 3, 5, 6}, 2);
     }
 }
 

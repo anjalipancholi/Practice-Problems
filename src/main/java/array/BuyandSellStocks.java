@@ -17,15 +17,16 @@ public class BuyandSellStocks {
 
 
             }
-            System.out.println(" maximum profit is "+ max_profit + ".");
+            System.out.println(" maximum profit is " + max_profit + ".");
 
         }
 
 
         return max_profit;
     }
+
     public static void main(String[] args) {
-        new BuyandSellStocks().maxProfit(new int[]{7, 1, 5, 4, 3} );
+        new BuyandSellStocks().maxProfit(new int[]{7, 1, 5, 4, 3});
     }
 
 
