@@ -7,7 +7,7 @@ public class FibonacciNumber {
             return N;
         }
         int answer = fib(N - 1) + fib(N - 2);
-        System.out.println(answer);
+
         return answer;
 
     }

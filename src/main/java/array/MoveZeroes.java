@@ -21,7 +21,7 @@ public class MoveZeroes {
 
             }
         }
-        System.out.println(Arrays.toString(nums));
+
     }
 
     public static void main(String[] args) {

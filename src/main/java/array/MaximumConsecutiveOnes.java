@@ -5,20 +5,25 @@ public class MaximumConsecutiveOnes {
 
         int temp = 0;
         int count = 0;
-
+        int result = 0;
         for (int i = 0; i < nums.length; i++) {
-            count = 0;
+
             if (nums[i] == 1) {
                 count++;
-            } else {
+
                 if (count > temp) {
-                    count = temp;
+                    temp = count;
+                    result = temp;
                 }
+            } else {
+                count = 0;
             }
 
         }
-        System.out.println(temp);
-        return temp;
+
+
+
+        return result;
 
 
     }

@@ -10,7 +10,7 @@ public class BuyandSellStocks2 {
             }
         }
 
-        System.out.println(" maximum profit is " + profit + ".");
+
 
         return profit;
     }

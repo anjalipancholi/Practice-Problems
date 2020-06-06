@@ -19,7 +19,7 @@ public class FindAllDisappearedNumbersInAnArray {
             }
         }
 
-        System.out.println(Arrays.toString(list.toArray()));
+
         return list;
 
     }

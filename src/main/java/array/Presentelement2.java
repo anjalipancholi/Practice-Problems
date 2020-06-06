@@ -20,7 +20,7 @@ public class Presentelement2 {
                 return mid;
             }
         }
-        System.out.println(i);
+
         return i;
 
     }

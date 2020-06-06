@@ -21,7 +21,7 @@ public class PresentElement {
                 return mid;
             }
         }
-        System.out.println(nums[i]);
+
         return nums[i];
 
     }

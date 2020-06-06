@@ -17,7 +17,7 @@ public class BuyandSellStocks {
 
 
             }
-            System.out.println(" maximum profit is " + max_profit + ".");
+
 
         }
 
