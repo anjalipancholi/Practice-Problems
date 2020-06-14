@@ -9,8 +9,9 @@ public class MaximumDistanceToClosestPerson {
             if(seats[i]==0)
             {
                 c++;
-                if(c==1)
-                    start=i;
+                if(c==1) {
+                    start = i;
+                }
                 end=i;
             }
             else
@@ -28,8 +29,9 @@ public class MaximumDistanceToClosestPerson {
             temp= end-start+1;
         else
             temp= (end-start+2)/2;
-        if(temp>max)
-            max=temp;
+        if(temp>max) {
+            max = temp;
+        }
 
         return max;
     }
