@@ -7,7 +7,7 @@ public class TimesSquare extends GraphicsProgram {
 
   private static final double PAUSE_TIME = 20;
   private static final double delta_x = 2.0;
-  private static final String Headline = " I " + "Love " + "You " + "Mr.Rajshubham";
+  private static final String Headline = " TimeSquare";
 
   @Override
   public void run() {
