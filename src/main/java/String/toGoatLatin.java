@@ -25,8 +25,8 @@ public class toGoatLatin {
             }
             sb.append(i).append("ma").append(numberOfA).append(" ");
         }
-        System.out.println(sb.toString());
-        return sb.toString();
+        System.out.println(sb.toString().trim());
+        return sb.toString().trim();
     }
 
 

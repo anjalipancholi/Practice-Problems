@@ -9,30 +9,38 @@ public class SwitchCase {
             switch (arr[i]) {
                 case 0:
                     System.out.println("Zero");
-                    return ("Zero");
+                    break;
                 case 1:
-                    return ("One");
+                    System.out.println("One");
+                    break;
                 case 2:
-                    return ("Two");
+                    System.out.println("Two");
+                    break;
                 case 3:
-                    return ("Three");
+                    System.out.println("Three");
+                    break;
                 case 4:
-                    return ("Four");
+                    System.out.println("Four");
+                    break;
                 case 5:
                     System.out.println("Five");
-                    return ("Five");
+                    break;
                 case 6:
-                    return ("Six");
+                    System.out.println("Six");
+                    break;
                 case 7:
-                    return ("Seven");
+                    System.out.println("Seven");
+                    break;
                 case 8:
-                    return ("Eight");
+                    System.out.println("Eight");
+                    break;
                 case 9:
-                    return ("Nine");
+                    System.out.println("Nine");
+                    break;
             }
             i++;
         }
-        return null;
+        return  "";
     }
 
 
