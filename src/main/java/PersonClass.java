@@ -14,6 +14,26 @@ public class PersonClass {
         gender = iGender;
     }
 
+    public void getFirstName() {
+        firstName = firstName + " " + lastName;
+    }
+
+    public void setGender() {
+        if (gender != "Male" || gender != "Female" || gender != "Other") {
+            throw new IllegalArgumentException();
+        }
+    }
+
+    public void setAge() {
+        if (age < 0) {
+            throw new IllegalArgumentException();
+        }
+    }
+
+    public String setName() {
+        return firstName + " " + lastName;
+    }
+
     public String details() {
 
         return (firstName + " " + lastName + "," + age + "," + gender);
@@ -22,7 +42,6 @@ public class PersonClass {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         String string = sc.nextLine();
         String l = sc.nextLine();
         int a = Integer.parseInt(sc.nextLine());
