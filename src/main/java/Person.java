@@ -36,16 +36,17 @@ public class Person {
     }
 
     void setGender(String gender) {
-        if (gender != "Female" || gender != "Male" || gender != "Other") {
+        if (gender.matches("Male|Female|Other")) {
+            this.gender = gender;
+        } else {
             throw new IllegalArgumentException();
         }
-        this.gender = gender;
     }
+
 
     String getGender() {
         return this.gender;
     }
-
 
 
     String getFullName() {
