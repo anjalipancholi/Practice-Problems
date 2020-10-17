@@ -10,14 +10,14 @@ public class BuyandSellStocks2 {
             }
         }
 
-        System.out.println(" maximum profit is " + profit + ".");
+
 
         return profit;
     }
 
 
     public static void main(String[] args) {
-        new BuyandSellStocks2().m_Profit(new int[]{7,1,2,3,4,5});
+        new BuyandSellStocks2().m_Profit(new int[]{7, 1, 2, 3, 4, 5});
     }
 
 }

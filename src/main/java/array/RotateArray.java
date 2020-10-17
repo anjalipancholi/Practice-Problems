@@ -15,7 +15,7 @@ public class RotateArray {
                 previous = temp;
             }
         }
-        System.out.println(Arrays.toString(nums));
+
     }
 
     public static void main(String[] args) {
