@@ -15,15 +15,18 @@ import javax.swing.JRadioButton;
 
 public class InterativeDrawFace extends GraphicsProgram {
 
+  private static final double small_d = 20;
+  private static final double med_d = 40;
+  private static final double large_d = 60;
   private JCheckBox checkbox;
   private JRadioButton smallRB;
   private JRadioButton medRB;
   private JRadioButton largeRB;
   private JComboBox pickColor;
 
-  private static final double small_d = 20;
-  private static final double med_d = 40;
-  private static final double large_d = 60;
+  public static void main(String[] args) {
+    new InterativeDrawFace().start();
+  }
 
   public void init() {
     add(new JButton("Clear"), SOUTH);
@@ -106,9 +109,5 @@ public class InterativeDrawFace extends GraphicsProgram {
     add(smallRB, SOUTH);
     add(medRB, SOUTH);
     add(largeRB, SOUTH);
-  }
-
-  public static void main(String[] args) {
-    new InterativeDrawFace().start();
   }
 }

@@ -10,6 +10,11 @@ public class RandomCircles extends GraphicsProgram {
   private final static double MIN_RADIUS = 5;
   private final static double MAX_RADIUS = 50;
   private final static double PAUSE_T = 40;
+  private final RandomGenerator rgen = RandomGenerator.getInstance();
+
+  public static void main(String[] args) {
+    new RandomCircles().start();
+  }
 
   public void run() {
     for (int i = 0; i <= MAX_CIRCLES; i++) {
@@ -23,12 +28,5 @@ public class RandomCircles extends GraphicsProgram {
       add(circle);
     }
 
-  }
-
-  private RandomGenerator rgen = RandomGenerator.getInstance();
-
-
-  public static void main(String[] args) {
-    new RandomCircles().start();
   }
 }

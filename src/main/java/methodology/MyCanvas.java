@@ -7,6 +7,10 @@ import java.awt.event.ComponentListener;
 
 public class MyCanvas extends GCanvas implements ComponentListener {
 
+  private static final double BOX_W = 50;
+  private static final double BOX_H = 50;
+  private final GRect rect;
+
   public MyCanvas() {
     addComponentListener(this);
     rect = new GRect(BOX_W, BOX_H);
@@ -30,8 +34,4 @@ public class MyCanvas extends GCanvas implements ComponentListener {
 
   public void componentShown(ComponentEvent e) {
   }
-
-  private static final double BOX_W = 50;
-  private static final double BOX_H = 50;
-  private GRect rect;
 }

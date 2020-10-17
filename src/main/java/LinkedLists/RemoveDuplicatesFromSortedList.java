@@ -1,33 +1,35 @@
 package LinkedLists;
 
 public class RemoveDuplicatesFromSortedList {
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
+  public ListNode deleteDuplicates(ListNode head) {
+    ListNode current = head;
+    while (current != null && current.next != null) {
+      if (current.next.val == current.val) {
+        current.next = current.next.next;
+      } else {
+        current = current.next;
+      }
+    }
+    return head;
+  }
 
-        ListNode(int val) {
-            this.val = val;
-        }
+  public class ListNode {
 
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
+    int val;
+    ListNode next;
+
+    ListNode() {
     }
 
-    public ListNode deleteDuplicates(ListNode head) {
-        ListNode current = head;
-        while (current != null && current.next != null) {
-            if (current.next.val == current.val) {
-                current.next = current.next.next;
-            } else {
-                current = current.next;
-            }
-        }
-        return head;
+    ListNode(int val) {
+      this.val = val;
     }
+
+    ListNode(int val, ListNode next) {
+      this.val = val;
+      this.next = next;
+    }
+  }
 }
 

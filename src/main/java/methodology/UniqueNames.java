@@ -5,6 +5,10 @@ import java.util.ArrayList;
 
 public class UniqueNames extends ConsoleProgram {
 
+  public static void main(String[] args) {
+    new UniqueNames().start();
+  }
+
   public void run() {
     ArrayList<String> list = new ArrayList<String>();
     while (true) {
@@ -24,9 +28,5 @@ public class UniqueNames extends ConsoleProgram {
     for (int i = 0; i < list.size(); i++) {
       println(list.get(i));
     }
-  }
-
-  public static void main(String[] args) {
-    new UniqueNames().start();
   }
 }

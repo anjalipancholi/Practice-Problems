@@ -12,6 +12,17 @@ import javax.swing.JTextField;
 
 public class MusicShop extends Program {
 
+  /* Private instance variables */
+  private JLabel label;
+  private JTextField albumName;
+  private MusicShopDisplay canvas;
+  private final HashMap<String, Album> inventory =
+      new HashMap<String, Album>();
+
+  public static void main(String[] args) {
+    new MusicShop().start();
+  }
+
   // Set up initial display with interactors and canvas
   public void init() {
     label = new JLabel("methodology.Album Name");
@@ -32,9 +43,9 @@ public class MusicShop extends Program {
           new FileReader("music-data.txt"));
       while (true) {
         String line = rd.readLine();
-          if (line == null) {
-              break;
-          }
+        if (line == null) {
+          break;
+        }
         Album album = parseLine(line);
         inventory.put(album.getAlbumName(), album);
       }
@@ -67,16 +78,5 @@ public class MusicShop extends Program {
     if (e.getSource() == albumName) {
       canvas.displayInventory(inventory.get(albumName.getText()));
     }
-  }
-
-  /* Private instance variables */
-  private JLabel label;
-  private JTextField albumName;
-  private MusicShopDisplay canvas;
-  private HashMap<String, Album> inventory =
-      new HashMap<String, Album>();
-
-  public static void main(String[] args) {
-    new MusicShop().start();
   }
 }

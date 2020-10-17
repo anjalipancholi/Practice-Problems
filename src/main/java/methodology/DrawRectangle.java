@@ -6,11 +6,18 @@ import java.awt.event.MouseEvent;
 
 public class DrawRectangle extends GraphicsProgram {
 
+  private GRect currentRect;
+  private double startX;
+  private double startY;
+
+  public static void main(String[] args) {
+    new DrawRectangle().start();
+  }
+
   @Override
   public void run() {
     addMouseListeners();
   }
-
 
   public void mousePressed(MouseEvent e) {
     startX = e.getX();
@@ -26,13 +33,5 @@ public class DrawRectangle extends GraphicsProgram {
     double width = Math.abs(e.getX() - startX);
     double height = Math.abs(e.getY() - startY);
     currentRect.setBounds(x, y, width, height);
-  }
-
-  private GRect currentRect;
-  private double startX;
-  private double startY;
-
-  public static void main(String[] args) {
-    new DrawRectangle().start();
   }
 }

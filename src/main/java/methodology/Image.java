@@ -6,10 +6,8 @@ import acm.program.GraphicsProgram;
 public class Image extends GraphicsProgram {
 
 
-  public void run() {
-    add(new GImage("/home/dhruv/Downloads/wallpaper.jpg"));
-
-
+  public static void main(String[] args) {
+    new Image().start();
   }
   //private GObject gimage;
 
@@ -28,9 +26,10 @@ public class Image extends GraphicsProgram {
   // return new GImage(array);
   //}
 
+  public void run() {
+    add(new GImage("/home/dhruv/Downloads/wallpaper.jpg"));
 
-  public static void main(String[] args) {
-    new Image().start();
+
   }
 
 }

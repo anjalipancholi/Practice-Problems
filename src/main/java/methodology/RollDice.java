@@ -5,6 +5,12 @@ import acm.util.RandomGenerator;
 
 public class RollDice extends ConsoleProgram {
 
+  private final RandomGenerator rgen = new RandomGenerator();
+
+  public static void main(String[] args) {
+    new RollDice().start();
+  }
+
   @Override
   public void run() {
     int numDice = readInt("Enter the number of dice: ");
@@ -27,11 +33,5 @@ public class RollDice extends ConsoleProgram {
       total += rgen.nextInt(1, 6);
     }
     return (total);
-  }
-
-  private RandomGenerator rgen = new RandomGenerator();
-
-  public static void main(String[] args) {
-    new RollDice().start();
   }
 }

@@ -13,6 +13,10 @@ public class Pyramid extends GraphicsProgram {
   private static final int BRICK_HEIGHT = 8;
   private double rect;
 
+  public static void main(String[] args) {
+    new Pyramid().start();
+  }
+
   public void run() {
     int xOffset = 0;
     for (int i = 12; i >= 1; --i) {
@@ -28,9 +32,5 @@ public class Pyramid extends GraphicsProgram {
 
       }
     }
-  }
-
-  public static void main(String[] args) {
-    new Pyramid().start();
   }
 }

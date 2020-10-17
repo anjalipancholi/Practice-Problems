@@ -1,30 +1,32 @@
 package LinkedLists;
 
 public class MiddleOfTheLinkedList {
-    public class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode() {
-        }
+  public ListNode middleNode(ListNode head) {
+    ListNode slow = head;
+    ListNode fast = head;
+    while (fast != null && fast.next != null) {
+      slow = slow.next;
+      fast = fast.next.next;
+    }
+    return slow;
+  }
 
-        ListNode(int val) {
-            this.val = val;
-        }
+  public class ListNode {
 
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
+    int val;
+    ListNode next;
+
+    ListNode() {
     }
 
-    public ListNode middleNode(ListNode head) {
-        ListNode slow = head;
-        ListNode fast = head;
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        return slow;
+    ListNode(int val) {
+      this.val = val;
     }
+
+    ListNode(int val, ListNode next) {
+      this.val = val;
+      this.next = next;
+    }
+  }
 }

@@ -6,6 +6,12 @@ import java.awt.event.MouseEvent;
 
 public class DrawingLines extends GraphicsProgram {
 
+  private GLine line;
+
+  public static void main(String[] args) {
+    new DrawingLines().start();
+  }
+
   public void run() {
     addMouseListeners();
   }
@@ -21,11 +27,5 @@ public class DrawingLines extends GraphicsProgram {
     double x = mouseEvent.getX();
     double y = mouseEvent.getY();
     line.setEndPoint(x, y);
-  }
-
-  private GLine line;
-
-  public static void main(String[] args) {
-    new DrawingLines().start();
   }
 }

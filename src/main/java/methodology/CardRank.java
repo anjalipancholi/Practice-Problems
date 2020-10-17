@@ -4,6 +4,10 @@ import acm.program.ConsoleProgram;
 
 public class CardRank extends ConsoleProgram {
 
+  public static void main(String[] args) {
+    new CardRank().start();
+  }
+
   @Override
   public void run() {
     println("This program converts integer to card number.");
@@ -25,9 +29,5 @@ public class CardRank extends ConsoleProgram {
         println(n);
         break;
     }
-  }
-
-  public static void main(String[] args) {
-    new CardRank().start();
   }
 }

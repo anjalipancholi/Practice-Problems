@@ -8,6 +8,13 @@ import java.io.IOException;
 
 public class Histograms extends ConsoleProgram {
 
+  private static final String DATA_FILE = "methodology/MidtermScores.txt";
+  private int[] histogramArray;
+
+  public static void main(String[] args) {
+    new Histograms().start();
+  }
+
   public void run() {
     initHistogram();
     readScoresIntoHistogram();
@@ -69,14 +76,5 @@ public class Histograms extends ConsoleProgram {
       stars += "*";
     }
     return stars;
-  }
-
-
-  private int[] histogramArray;
-  private static final String DATA_FILE = "methodology/MidtermScores.txt";
-
-
-  public static void main(String[] args) {
-    new Histograms().start();
   }
 }

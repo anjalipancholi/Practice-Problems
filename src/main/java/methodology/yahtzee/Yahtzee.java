@@ -5,6 +5,17 @@ import acm.util.RandomGenerator;
 
 public class Yahtzee extends GraphicsProgram implements YahtzeeConstants {
 
+  private int[][] scoreCard;
+  private final int[] diceRoll = new int[N_DICE];
+  private String[] playerNames;
+  private int nPlayers;
+  private final RandomGenerator rgen = new RandomGenerator();
+  private YahtzeeDisplay display;
+
+  public static void main(String[] args) {
+    new Yahtzee().start();
+  }
+
   public void run() {
     nPlayers = readInt("Enter the number of players:");
     playerNames = new String[nPlayers];
@@ -42,17 +53,6 @@ public class Yahtzee extends GraphicsProgram implements YahtzeeConstants {
     }
 
 
-  }
-
-  private int[][] scoreCard;
-  private int[] diceRoll = new int[N_DICE];
-  private String[] playerNames;
-  private int nPlayers;
-  private RandomGenerator rgen = new RandomGenerator();
-  private YahtzeeDisplay display;
-
-  public static void main(String[] args) {
-    new Yahtzee().start();
   }
 }
 

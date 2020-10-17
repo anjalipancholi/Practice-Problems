@@ -7,6 +7,10 @@ import java.awt.Color;
 
 public class ArcProgram extends GraphicsProgram {
 
+  public static void main(String[] args) {
+    new ArcProgram().start();
+  }
+
   public void run() {
     GArc arc = new GArc(100, 100, -90, 360);
     add(arc, 300, 100);
@@ -23,9 +27,5 @@ public class ArcProgram extends GraphicsProgram {
     add(triangle, 300, 50);
     triangle.setFilled(true);
     triangle.setFillColor(Color.RED);
-  }
-
-  public static void main(String[] args) {
-    new ArcProgram().start();
   }
 }

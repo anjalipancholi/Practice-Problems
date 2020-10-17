@@ -12,6 +12,10 @@ import acm.program.GraphicsProgram;
 
 public class Snowperson extends GraphicsProgram {
 
+  public static void main(String[] args) {
+    new Snowperson().start();
+  }
+
   @Override
   public void run() {
     add(new GOval(120, 20, 30, 30));
@@ -24,9 +28,5 @@ public class Snowperson extends GraphicsProgram {
     add(new GRect(130, 65, 10, 5));
     add(new GRect(130, 80, 10, 5));
     add(new GRect(130, 95, 10, 5));
-  }
-
-  public static void main(String[] args) {
-    new Snowperson().start();
   }
 }

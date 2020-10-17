@@ -2,6 +2,11 @@ package methodology;
 
 public class Album {
 
+  /* private instance variables */
+  private final String albumName;
+  private final String bandName;
+  private final int numStocked;
+
   // Constructor
   public Album(String album, String band, int stock) {
     albumName = album;
@@ -28,11 +33,6 @@ public class Album {
         "\" by " + bandName +
         ": " + numStocked + " in stock");
   }
-
-  /* private instance variables */
-  private String albumName;
-  private String bandName;
-  private int numStocked;
 }
 
 

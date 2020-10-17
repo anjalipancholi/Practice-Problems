@@ -11,10 +11,16 @@ import acm.graphics.GLabel;
 import acm.graphics.GRect;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-import methodology.Album;
 
 public class MusicShopDisplay extends GCanvas
     implements ComponentListener {
+
+  /* constants */
+  private static final double BAR_HEIGHT = 20;
+  private static final double SPACER = 10;
+  private static final int MAX_INVENTORY = 20;
+  /* private instance variables */
+  private Album lastAlbum;
 
   // Constructor
   public MusicShopDisplay() {
@@ -69,11 +75,4 @@ public class MusicShopDisplay extends GCanvas
 
   public void componentShown(ComponentEvent e) {
   }
-
-  /* constants */
-  private static final double BAR_HEIGHT = 20;
-  private static final double SPACER = 10;
-  private static final int MAX_INVENTORY = 20;
-  /* private instance variables */
-  private Album lastAlbum;
 }

@@ -6,6 +6,10 @@ import acm.program.GraphicsProgram;
 
 public class SnakeGame extends GraphicsProgram {
 
+  public static void main(String[] args) {
+    new SnakeGame().start();
+  }
+
   public void run() {
     setup();
     play();
@@ -21,9 +25,5 @@ public class SnakeGame extends GraphicsProgram {
   }
 
   private void play() {
-  }
-
-  public static void main(String[] args) {
-    new SnakeGame().start();
   }
 }

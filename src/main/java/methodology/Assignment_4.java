@@ -4,6 +4,10 @@ import acm.program.ConsoleProgram;
 
 public class Assignment_4 extends ConsoleProgram {
 
+  public static void main(String[] args) {
+    new Assignment_4().start();
+  }
+
   public void run() {
     ghost(13);
   }
@@ -24,9 +28,5 @@ public class Assignment_4 extends ConsoleProgram {
 
   private int skeleton(int x, int y) {
     return x / y % 2;
-  }
-
-  public static void main(String[] args) {
-    new Assignment_4().start();
   }
 }

@@ -4,6 +4,12 @@ import acm.program.ConsoleProgram;
 
 public class Fibonacci extends ConsoleProgram {
 
+  private static final int Max_Value = 10000;
+
+  public static void main(String[] args) {
+    new Fibonacci().start();
+  }
+
   @Override
   public void run() {
     println("This program lists the Fibonacci sequence.");
@@ -15,11 +21,5 @@ public class Fibonacci extends ConsoleProgram {
       t1 = t2;
       t2 = t3;
     }
-  }
-
-  private static final int Max_Value = 10000;
-
-  public static void main(String[] args) {
-    new Fibonacci().start();
   }
 }

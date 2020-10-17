@@ -4,6 +4,10 @@ import acm.program.ConsoleProgram;
 
 public class LeapYear extends ConsoleProgram {
 
+  public static void main(String[] args) {
+    new LeapYear().start();
+  }
+
   @Override
   public void run() {
     println("This program checks for leap year: ");
@@ -14,9 +18,5 @@ public class LeapYear extends ConsoleProgram {
     } else {
       println(year + " is not a leap year.");
     }
-  }
-
-  public static void main(String[] args) {
-    new LeapYear().start();
   }
 }

@@ -1,33 +1,32 @@
 package array;
 
-
 // This code is about the element that if it is present in the array it will return that position or ONE Forward .
 
 
 public class PresentElement {
-    public int searchInsert(int[] nums, int target) {
-        int i = 0;
-        int j = nums.length - 1;
 
+  public static void main(String[] args) {
+    new PresentElement().searchInsert(new int[]{1, 2, 3, 6}, 5);
+  }
 
-        while (i <= j) {
-            int mid = (i + j) / 2;
+  public int searchInsert(int[] nums, int target) {
+    int i = 0;
+    int j = nums.length - 1;
 
-            if (target > nums[mid]) {
-                i = mid + 1;
-            } else if (target < nums[mid]) {
-                j = mid - 1;
-            } else {
-                return mid;
-            }
-        }
+    while (i <= j) {
+      int mid = (i + j) / 2;
 
-        return nums[i];
-
+      if (target > nums[mid]) {
+        i = mid + 1;
+      } else if (target < nums[mid]) {
+        j = mid - 1;
+      } else {
+        return mid;
+      }
     }
 
-    public static void main(String[] args) {
-        new PresentElement().searchInsert(new int[]{1, 2, 3, 6}, 5);
-    }
+    return nums[i];
+
+  }
 }
 

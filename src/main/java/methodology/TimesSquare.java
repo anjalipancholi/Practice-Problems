@@ -9,6 +9,10 @@ public class TimesSquare extends GraphicsProgram {
   private static final double delta_x = 2.0;
   private static final String Headline = " TimeSquare";
 
+  public static void main(String[] args) {
+    new TimesSquare().start();
+  }
+
   @Override
   public void run() {
     GLabel label = new GLabel(Headline);
@@ -18,9 +22,5 @@ public class TimesSquare extends GraphicsProgram {
       label.move(-delta_x, 0);
       pause(PAUSE_TIME);
     }
-  }
-
-  public static void main(String[] args) {
-    new TimesSquare().start();
   }
 }

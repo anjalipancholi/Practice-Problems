@@ -13,6 +13,10 @@ public class DraggingObjects extends GraphicsProgram {
   private double lastY;
   private GObject gobj;
 
+  public static void main(String[] args) {
+    new DraggingObjects().start();
+  }
+
   public void run() {
     GRect rect = new GRect(100, 100, 50, 50);
     rect.setFilled(true);
@@ -43,9 +47,5 @@ public class DraggingObjects extends GraphicsProgram {
     if (gobj != null) {
       gobj.sendToFront();
     }
-  }
-
-  public static void main(String[] args) {
-    new DraggingObjects().start();
   }
 }

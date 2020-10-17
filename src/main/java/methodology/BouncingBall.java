@@ -40,10 +40,14 @@ public class BouncingBall extends GraphicsProgram {
   /**
    * Starting X and Y Velocties
    */
-  private double xVel = X_VEL;
+  private final double xVel = X_VEL;
   private double yVel = Y_VEL;
   /* private instance variable */
   private GOval ball;
+
+  public static void main(String[] args) {
+    new BouncingBall().start();
+  }
 
   public void run() {
     setup();
@@ -93,9 +97,5 @@ public class BouncingBall extends GraphicsProgram {
       double diff = ball.getY() - (getHeight() - DIAM_BALL);
       ball.move(0, -2 * diff);
     }
-  }
-
-  public static void main(String[] args) {
-    new BouncingBall().start();
   }
 }

@@ -4,6 +4,10 @@ import acm.program.ConsoleProgram;
 
 public class FactorialTable extends ConsoleProgram {
 
+  public static void main(String[] args) {
+    new FactorialTable().start();
+  }
+
   public void run() {
     for (int i = 0; i <= 10; i++) {
       println(i + "! = " + factorial(i));
@@ -16,9 +20,5 @@ public class FactorialTable extends ConsoleProgram {
       result *= i;
     }
     return result;
-  }
-
-  public static void main(String[] args) {
-    new FactorialTable().start();
   }
 }

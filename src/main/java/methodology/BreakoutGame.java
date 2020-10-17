@@ -63,7 +63,6 @@ public class BreakoutGame extends GraphicsProgram {
    * Offset of the top brick row from the top
    */
   private static final int BRICK_Y_OFFSET = 70;
-  private GObject gobj;
   /**
    * \
    *
@@ -71,18 +70,23 @@ public class BreakoutGame extends GraphicsProgram {
    */
   private static final int NTURNS = 3;
   private static final double Y_VELOCITY = 0;
-  private GOval ball;
   private static final int DELAY = 8;
   private static final double GRAVITY = 3;
   private static final int x = 0;
   private static final int y = 0;
   private static final int x_velocity = 5;
+  private GObject gobj;
+  private GOval ball;
   private double y_velocity = Y_VELOCITY;
   private GRect paddle;
   private double lastX;
   private double lastY;
-  private boolean play = true;
+  private final boolean play = true;
+  private GObject getCollidingObject;
 
+  public static void main(String[] args) {
+    new BreakoutGame().start();
+  }
 
   public void run() {
     setup();
@@ -91,7 +95,6 @@ public class BreakoutGame extends GraphicsProgram {
 
 
   }
-
 
   private void setup() {
 
@@ -188,14 +191,6 @@ public class BreakoutGame extends GraphicsProgram {
       double diff = ball.getY() - (getHeight() - BALL_RADIUS);
       ball.move(0, -2 * diff);
     }
-  }
-
-
-  private GObject getCollidingObject;
-
-
-  public static void main(String[] args) {
-    new BreakoutGame().start();
   }
 }
 

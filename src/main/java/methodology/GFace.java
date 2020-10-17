@@ -16,10 +16,11 @@ public class GFace extends GCompound {
   private static final double width = 200;
   private static final double height = 300;
 
-  private GOval head;
-  private GOval leftEye, rightEye;
-  private GRect mouth;
-  private GPolygon nose;
+  private final GOval head;
+  private final GOval leftEye;
+  private final GOval rightEye;
+  private final GRect mouth;
+  private final GPolygon nose;
 
   public GFace(double width, double height) {
     head = new GOval(width, height);

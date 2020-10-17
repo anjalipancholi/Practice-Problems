@@ -16,6 +16,13 @@ public class UfoGame extends GraphicsProgram {
   private static final int Bullet_Speed = 10;
   private static final int Bullet_Diam = 5;
   private static final int DELAY = 10;
+  private GRect ufo;
+  private GOval bullet;
+  private boolean ufoToLeft;
+
+  public static void main(String[] args) {
+    new UfoGame().start();
+  }
 
   public void run() {
     setup();
@@ -34,7 +41,6 @@ public class UfoGame extends GraphicsProgram {
     ufoToLeft = true;
     addMouseListeners();
   }
-
 
   private boolean gameOver() {
     return (ufo == null) || (ufo.getY() >= getHeight() - Ufo_Height);
@@ -96,13 +102,5 @@ public class UfoGame extends GraphicsProgram {
         bullet = null;
       }
     }
-  }
-
-  private GRect ufo;
-  private GOval bullet;
-  private boolean ufoToLeft;
-
-  public static void main(String[] args) {
-    new UfoGame().start();
   }
 }

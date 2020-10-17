@@ -17,6 +17,9 @@ public class BoxDiagram extends GraphicsProgram {
   private JButton clearButton;
   private HashMap contents;
 
+  public static void main(String[] args) {
+    new BoxDiagram().start();
+  }
 
   public void init() {
     contents = new HashMap<String, GObject>();
@@ -37,9 +40,5 @@ public class BoxDiagram extends GraphicsProgram {
     add(removeButton, SOUTH);
     add(clearButton, SOUTH);
 
-  }
-
-  public static void main(String[] args) {
-    new BoxDiagram().start();
   }
 }

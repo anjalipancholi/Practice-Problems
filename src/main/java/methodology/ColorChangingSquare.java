@@ -8,7 +8,11 @@ public class ColorChangingSquare extends GraphicsProgram {
 
   private static final double Pause_time = 1000;
   private static final double s_size = 100;
-  private RandomGenerator rgen = new RandomGenerator();
+  private final RandomGenerator rgen = new RandomGenerator();
+
+  public static void main(String[] args) {
+    new ColorChangingSquare().start();
+  }
 
   public void run() {
     GRect square = new GRect(s_size, s_size);
@@ -18,9 +22,5 @@ public class ColorChangingSquare extends GraphicsProgram {
       square.setColor(rgen.nextColor());
       pause(Pause_time);
     }
-  }
-
-  public static void main(String[] args) {
-    new ColorChangingSquare().start();
   }
 }

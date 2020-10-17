@@ -9,6 +9,10 @@ public class WordCount extends ConsoleProgram {
 
   private Object WordCount;
 
+  public static void main(String[] args) {
+    new WordCount().start();
+  }
+
   public void run() {
     int lines = 0;
     int words = 0;
@@ -64,9 +68,5 @@ public class WordCount extends ConsoleProgram {
       words++;
     }
     return words;
-  }
-
-  public static void main(String[] args) {
-    new WordCount().start();
   }
 }

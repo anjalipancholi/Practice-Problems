@@ -4,6 +4,10 @@ import acm.program.ConsoleProgram;
 
 public class AddingCommas extends ConsoleProgram {
 
+  public static void main(String[] args) {
+    new AddingCommas().start();
+  }
+
   public void run() {
     while (true) {
       String digits = readLine("Enter String:");
@@ -27,9 +31,5 @@ public class AddingCommas extends ConsoleProgram {
     }
     return result;
 
-  }
-
-  public static void main(String[] args) {
-    new AddingCommas().start();
   }
 }

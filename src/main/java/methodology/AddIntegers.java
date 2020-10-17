@@ -7,6 +7,9 @@ public class AddIntegers extends ConsoleProgram {
 
   public static final int NVALUES = 10;
 
+  public static void main(String[] args) {
+    new AddIntegers().start();
+  }
 
   public void init() {
     println("This program add " + NVALUES + " integers.");
@@ -16,9 +19,5 @@ public class AddIntegers extends ConsoleProgram {
       total += value;
     }
     println("This total is " + total + ".");
-  }
-
-  public static void main(String[] args) {
-    new AddIntegers().start();
   }
 }

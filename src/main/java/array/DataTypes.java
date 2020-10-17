@@ -3,51 +3,52 @@ package array;
 import java.util.Scanner;
 
 public class DataTypes {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        byte a = sc.nextByte();
-        short b = sc.nextShort();
-        int c = sc.nextInt();
-        long d = sc.nextLong();
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-        DataTypes dataTypes = new DataTypes();
+    byte a = sc.nextByte();
+    short b = sc.nextShort();
+    int c = sc.nextInt();
+    long d = sc.nextLong();
 
-        byte byteRes = dataTypes.calc_square(a);
-        short shortRes = dataTypes.calc_square(b);
-        int intRes = dataTypes.calc_square(c);
-        long longRes = dataTypes.calc_square(d);
+    DataTypes dataTypes = new DataTypes();
 
-        System.out.println("Square of the number is: " + byteRes);
-        System.out.println("Square of the number is: " + shortRes);
-        System.out.println("Square of the number is: " + intRes);
-        System.out.println("Square of the number is: " + longRes);
-    }
+    byte byteRes = dataTypes.calc_square(a);
+    short shortRes = dataTypes.calc_square(b);
+    int intRes = dataTypes.calc_square(c);
+    long longRes = dataTypes.calc_square(d);
 
-    // TODO
-    // Complete the methods below
-    // Hint: Some of the methods require typecasting otherwise you will get an error.
+    System.out.println("Square of the number is: " + byteRes);
+    System.out.println("Square of the number is: " + shortRes);
+    System.out.println("Square of the number is: " + intRes);
+    System.out.println("Square of the number is: " + longRes);
+  }
 
-    byte calc_square(byte a) {
-        byte result = (byte) (a * a);
-        return result;
-    }
+  // TODO
+  // Complete the methods below
+  // Hint: Some of the methods require typecasting otherwise you will get an error.
 
-    short calc_square(short b) {
-        int sec = b;
-        int result = sec * sec;
-        return (short) result;
-    }
+  byte calc_square(byte a) {
+    byte result = (byte) (a * a);
+    return result;
+  }
 
-    int calc_square(int c) {
-        int third = c * c;
-        return third;
-    }
+  short calc_square(short b) {
+    int sec = b;
+    int result = sec * sec;
+    return (short) result;
+  }
 
-    long calc_square(long d) {
-        long fourth = d * d;
-        return fourth;
-    }
+  int calc_square(int c) {
+    int third = c * c;
+    return third;
+  }
+
+  long calc_square(long d) {
+    long fourth = d * d;
+    return fourth;
+  }
 
 
 }

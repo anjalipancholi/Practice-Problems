@@ -7,9 +7,14 @@ public class Spotlight {
   public static final Color GREEN = Color.GREEN;
   public static final Color YELLOW = Color.YELLOW;
   public static final Color RED = Color.RED;
+  private Color state;
 
   public Spotlight() {
     state = GREEN;
+  }
+
+  public static void main(String[] args) {
+    new Spotlight().start();
   }
 
   public Color getState() {
@@ -24,12 +29,6 @@ public class Spotlight {
     } else if (state == GREEN) {
       state = YELLOW;
     }
-  }
-
-  private Color state;
-
-  public static void main(String[] args) {
-    new Spotlight().start();
   }
 
   private void start() {

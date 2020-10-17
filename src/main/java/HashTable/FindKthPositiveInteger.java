@@ -1,18 +1,19 @@
 package HashTable;
 
 public class FindKthPositiveInteger {
-    public int findKthPositive(int[] arr, int k) {
-        int count = 1;
-        for (int i = 0; i < arr.length; i++) {
-            while (arr[i] != count) {
-                k--;
-                if (k == 0) {
-                    return count;
-                }
-                count++;
-            }
-            count++;
+
+  public int findKthPositive(int[] arr, int k) {
+    int count = 1;
+    for (int i = 0; i < arr.length; i++) {
+      while (arr[i] != count) {
+        k--;
+        if (k == 0) {
+          return count;
         }
-        return count - 1 +k;
+        count++;
+      }
+      count++;
     }
+    return count - 1 + k;
+  }
 }

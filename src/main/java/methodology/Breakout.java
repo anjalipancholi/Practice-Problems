@@ -77,6 +77,9 @@ public class Breakout extends GraphicsProgram {
 
   //main method -- called when the program is run
 
+  public static void main(String[] args) {
+    new Breakout().start();
+  }
 
   //run method -- called indirectly from the main method
   public void run() {
@@ -93,7 +96,6 @@ public class Breakout extends GraphicsProgram {
     createBall();
     addMouseListeners();
   }
-
 
   //createBricks method -- called from the setup method
   public void createBricks() {
@@ -164,7 +166,6 @@ public class Breakout extends GraphicsProgram {
 
 
   }
-
 
   //playBall method -- called from the play method
   public void playBall() {
@@ -277,9 +278,5 @@ public class Breakout extends GraphicsProgram {
     }
 
 
-  }
-
-  public static void main(String[] args) {
-    new Breakout().start();
   }
 }
