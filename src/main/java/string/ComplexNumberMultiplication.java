@@ -22,14 +22,6 @@ public class ComplexNumberMultiplication {
             this.imaginary = Integer.parseInt(split[1].substring(0, split[1].length() - 1));
         }
 
-        public int getReal() {
-            return real;
-        }
-
-        public int getImaginary() {
-            return imaginary;
-        }
-
         public ComplexNumber multiply(ComplexNumber that) {
             return new ComplexNumber(this.real * that.real - this.imaginary * that.imaginary, this.real * that.imaginary + this.imaginary * that.real);
         }
