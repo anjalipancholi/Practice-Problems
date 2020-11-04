@@ -8,15 +8,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class BinaryStringWithSubstringsTest {
 
-    @BeforeEach
-    void setUp() {
-    }
-
-    @AfterEach
-    void tearDown() {
+    @Test
+    void queryString() {
+        System.out.println("Starting queryString");
     }
 
     @Test
-    void queryString() {
+    void convertToBinary() {
+        assertEquals("1010", BinaryStringWithSubstrings.convertToBinary(10));
     }
 }

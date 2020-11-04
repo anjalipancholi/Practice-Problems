@@ -1,5 +1,8 @@
 package string;
 
+/**
+ *67. Add Binary
+ */
 public class AddBinary {
 
   public static void main(String[] args) {

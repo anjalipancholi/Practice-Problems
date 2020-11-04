@@ -18,7 +18,6 @@ public class RotateArray {
         previous = temp;
       }
     }
-
   }
 }
 

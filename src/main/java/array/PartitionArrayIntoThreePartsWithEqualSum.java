@@ -15,9 +15,7 @@ public class PartitionArrayIntoThreePartsWithEqualSum {
     if (sum % 3 != 0) {
       return false;
     }
-
     sum = sum / 3;
-
     int count = 0;
     int temp = 0;
     for (int i = 0; i < A.length; ++i) {
@@ -27,8 +25,6 @@ public class PartitionArrayIntoThreePartsWithEqualSum {
         temp = 0;
       }
     }
-
     return count == 3;
-
   }
 }

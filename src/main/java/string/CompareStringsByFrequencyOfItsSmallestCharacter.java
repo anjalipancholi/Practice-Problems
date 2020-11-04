@@ -1,5 +1,8 @@
 package string;
 
+/**
+ * 1170. Compare Strings by Frequency of the Smallest Character
+ */
 public class CompareStringsByFrequencyOfItsSmallestCharacter {
 
   public int[] numSmallerByFrequency(String[] queries, String[] words) {

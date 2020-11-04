@@ -9,6 +9,12 @@ public class PresentElement {
     new PresentElement().searchInsert(new int[]{1, 2, 3, 6}, 5);
   }
 
+  /**
+   * 35. Search Insert Position
+   * @param nums
+   * @param target
+   * @return
+   */
   public int searchInsert(int[] nums, int target) {
     int i = 0;
     int j = nums.length - 1;
@@ -24,9 +30,7 @@ public class PresentElement {
         return mid;
       }
     }
-
     return nums[i];
-
   }
 }
 
